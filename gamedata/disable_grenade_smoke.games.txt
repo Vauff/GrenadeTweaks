@@ -1,0 +1,15 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			// Offset into CHEGrenadeProjectile vtable (for CBaseAnimating, the longer one)
+			"GetParticleSystemName"
+			{
+				"windows"	"242"
+				"linux"		"243"
+			}
+		}
+	}
+}
