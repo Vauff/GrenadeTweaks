@@ -7,8 +7,8 @@
 			// Offset into CHEGrenadeProjectile vtable (for CBaseAnimating, the longer one)
 			"GetParticleSystemName"
 			{
-				"windows"	"242"
-				"linux"		"243"
+				"windows"	"243"
+				"linux"		"244"
 			}
 		}
 	}
