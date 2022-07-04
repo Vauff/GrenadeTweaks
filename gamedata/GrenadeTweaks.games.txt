@@ -4,11 +4,17 @@
 	{
 		"Offsets"
 		{
-			// Offset into CHEGrenadeProjectile vtable (for CBaseAnimating, the longer one)
+			// CHEGrenadeProjectile
 			"GetParticleSystemName"
 			{
 				"windows"	"243"
 				"linux"		"244"
+			}
+			// CCSPlayer
+			"OnDamagedByExplosion"
+			{
+				"windows"	"376"
+				"linux"		"377"
 			}
 		}
 	}

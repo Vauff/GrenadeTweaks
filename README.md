@@ -1,7 +1,6 @@
-# disable_grenade_smoke
+# GrenadeTweaks
 
-This plugin stops the smoke created from HE grenades by overriding CS:GO's [default function](https://github.com/perilouswithadollarsign/cstrike15_src/blob/master/game/shared/cstrike15/hegrenade_projectile.cpp#L111) that decides it to always use a smokeless grenade particle (explosion_hegrenade_brief), unless the explosion was in water, in which case smoke would not have been created anyways.
+This plugin removes the smoke particles and audio ringing effect from HE grenade explosions.
 
-## Requirements
-
-- [DHooks](https://forums.alliedmods.net/showpost.php?p=2588686&postcount=589)
+## Credits
+- BotoX: Creating the NoGrenadeRinging plugin for CS:S, which I ported to CS:GO and included in this plugin
