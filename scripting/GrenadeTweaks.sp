@@ -9,7 +9,7 @@ public Plugin myinfo =
 	name = "Grenade Tweaks",
 	author = "Vauff, BotoX",
 	description = "Removes smoke particles & audio ringing from HE grenade explosions",
-	version = "2.0",
+	version = "2.0.1",
 	url = "https://github.com/Vauff/GrenadeTweaks"
 };
 
@@ -42,7 +42,7 @@ public void OnPluginStart()
 		SetFailState("Failed to setup hook for GetParticleSystemName");
 
 	if (!g_hDamagedByExplosion)
-		SetFailState("Failed to setup hook for GetParticleSystemName");
+		SetFailState("Failed to setup hook for OnDamagedByExplosion");
 }
 
 public void OnEntityCreated(int entity, const char[] classname)
